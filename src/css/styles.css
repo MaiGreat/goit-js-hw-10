@@ -22,3 +22,28 @@ body {
 .country-list {
   list-style: none;
 }
+
+.country-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.country-img {
+  margin-right: 10px;
+}
+
+.country-list-name {
+  font-size: 26px;
+  font-weight: bold; 
+}
+
+.info-country-list {
+  font-size: 18px;
+}
+
+.main-info {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: #253342;
+}
