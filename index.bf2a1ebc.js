@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector(".country-list");console.log(e),document.querySelector("#search-box").addEventListener("input",(function(e){n=e.target.value,fetch("https://restcountries.com/v3.1/name/".concat(n,"?fields=name,capital,population,flags,languages")).then((function(e){return console.log(e),e.json()})).then((function(e){return e}));var n}))}();
-//# sourceMappingURL=index.bf2a1ebc.js.map
